@@ -1,0 +1,16 @@
+container to docker image name
+
+
+   docker commit <container id> imagename 
+
+docker image backup
+
+   docker save -o /root/filename.tar <imagename>
+
+image backupfile to docker image
+
+   docker image load -i filename.tar
+
+
+
+
